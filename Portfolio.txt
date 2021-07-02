@@ -1,2 +1,5 @@
 Beginning of web image
 End of web image
+Background images for feral garden
+Background images for design rants
+Final check that all links work
