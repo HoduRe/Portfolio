@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--
+Template Name: Chillaid
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>FRBB Portfolio | Prototypes</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <h1 class="logoname"><a href="../index.html">Ferran-Roger<span>B</span>asart i Bosch</a></h1>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="fl_right"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+        <li class="active"><a href="../index.html">Home</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#projects">Projects</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#publications">Publications</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#skills">Soft Skills</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#aboutMe">About me</a></li>
+        <li><a href="https://www.linkedin.com/in/ferran-roger-basart-i-bosch-606b5a195/"><img src="../images/linkedinlogo.png" style="width:40px;height:40px;"></a></li>
+        <li><a href="https://github.com/HoduRe"><img src="../images/githublogo.png" style="width:40px;height:40px;"></a></li>
+        <li><a href="mailto: frbopd@gmail.com"><img src="../images/emaillogo.png" style="width:50px;height:50px;"></a></li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </nav>
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded overlay" style="background-image:url('../images/Header.jpg');">
+  <div id="breadcrumb" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#soloProjects">Solo projects</a></li>
+      <li><a href="#">Prototypes</a></li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+      <h1>Prototypes</h1>
+
+      <h2>General concept</h2>
+      <p>The following are a series of projects that were developed in distinct circumstances, but for one reason or another, never saw green light
+	to enter the development cycle. Nonetheless, I thought it would be insightful to add, so here we go:<br><br>
+
+      <h2>A.C.T.I.O.N.</h2>
+      <p>A.C.T.I.O.N., otherwise known as <em>A Cautionary Torment Imposed On the Nameless</em>, is a semi-linear action game of a young boy who is
+	exiled into the accursed wilderness of an island, and needs to escape in order to survive. The game is broken down into several levels, have
+	to be traversed to reach a key item that unlocks the final boss room, located at the beginning of the game, meaning they have to backtrack.
+	This is important, because practically in every room, they are chased by an undefeatable enemy, and the resources they have to divert its attention,
+	or stop its movement, are highly limited. This generates a dynamic similar to roguelikes, where there is repetition aided by the knowledge of how
+	to optimize already-encountered obstacles.</p><br>
+
+	<center>
+
+		<img src="../images/demos/ACTIONPreview.gif" style="width: 35vw" />
+		<figcaption>Player crossing a room with limited vision</figcaption><br>
+
+	</center>
+
+	There were also distinct minor enemies that interacted with the roaming area boss that chases the player, and a system of health - stamina
+	management, but ultimately, the project didn't take off because it was done in a custom engine. This meant that, although we made a fully
+	<a href="../documentation/demos/ACTION/ACTION Release.rar"> playable release </a> in less than a month, the workload to create our own tools and the polish necessary
+	to make it into a commercial release was too much a workload for the available budget.<br>
+
+      <p>On the other hand, using a custom engine also meant this was the project we had to use most external tools for, and the one we had to create
+	more assets for, only borrowing from others the two music tracks. A list of said tools is as follows:
+
+<ul>
+
+<li>Freetype</li>
+<li>GLEW</li>
+<li>OpenGL</li>
+<li>PhysFS</li>
+<li>SDL2</li>
+<li>SDL2_Image</li>
+<li>SDL2_Mixer</li>
+<li>Tiled</li>
+
+</ul>
+
+<p>The rest, then, including but not limited to the render pipeline, the collision system, the enemy behavior, the sprites, the sound effects, and of course,
+the level design, mechanic design, progression design, balancing... All had to be accounted for in the span of a single month, under my responsibility.
+There was also a playtesting session done at the end of the release, which I conducted with a group of five participants.<br><br></p>
+
+<h2>Gdala series</h2>
+
+<p>The Gdala series was a three-part project that spanned a total of about two months, carried out in Unreal Engine 5. It was comprised of a fully-realized
+demo, and two short prototypes, each aiming for unique targets. The demo was a story-based point-and-click with a branching narrative and diegetically
+integrated UI, comparable in concept to <em><a href="https://store.steampowered.com/app/354240/Please_Dont_Touch_Anything/?l=spanish" /> Please, Don't
+Touch Anything</a></em>, though with a strong focus on sensitive content.</p><br>
+
+	<center>
+
+		<img src="../images/demos/GdalaAIPreview.gif" style="width: 35vw" />
+		<figcaption>Starting screen of the demo</figcaption><br>
+
+	</center>
+
+<p>The third project was a rework of the demo, with a change of visual style, and swapping the UI-based interactions for a more typical Visual Novel kind
+of approach, but ultimately it didn't go past the prototype barrier, due to lack of artistic resources.</p><br>
+
+<p><em>Gdala: No Man's Shell</em>, the second of the projects, was a complete innovation of the series, keeping the same world and characters, but fundamentally
+altering the gameplay. Instead of interacting with static UI elements, the player would alternate story and play-time, in which they would have to repel
+certain telegraphed attacks, as their enemies morph and amalgamete into more powerful beings.</p><br>
+
+	<center>
+
+		<img src="../images/demos/GdalaNMSPreview.gif" style="width: 35vw" />
+		<figcaption>Demonic cats transform into giant death skeleton</figcaption><br>
+
+	</center>
+
+<p>Though the visual aspect was highly emphasized, taking a more abstract and minimalist style to accomodate for our skills, the game failed to harness
+any significant attention, and was discontinued to cut costs.</p><br>
+
+    </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded overlay row4" style="background-image:url('../images/Header2.jpg');">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+	<div align="right">
+	        <a href="https://www.linkedin.com/in/ferran-roger-basart-i-bosch-606b5a195/"><img src="../images/linkedinlogo.png" style="width:40px;height:40px;"></a>
+        	<a href="https://github.com/HoduRe"><img src="../images/githublogo.png" style="width:40px;height:40px;"></a>
+        	<a href="mailto: frbopd@gmail.com"><img src="../images/emaillogo.png" style="width:50px;height:50px;"></a>
+	</div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
